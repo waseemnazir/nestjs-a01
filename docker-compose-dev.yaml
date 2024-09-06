@@ -1,0 +1,19 @@
+version: '3'
+services:
+  upc_api_dev:
+    container_name: upc_api_dev
+    build:
+      context: .
+      dockerfile: Dev.Dockerfile
+    ports:
+      - 5003:5003
+    env_file:
+      - .env.dev
+    networks:
+      - backend
+networks:
+  backend:
+    external: true
+    driver: bridge
+  shared:
+    driver: bridge

@@ -1,5 +1,5 @@
 {
-  "name": "nest_razorpay",
+  "name": "nest_upc",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -63,7 +63,6 @@
     "passport-anonymous": "1.0.1",
     "passport-jwt": "^4.0.1",
     "pg": "^8.11.3",
-    "razorpay": "^2.9.2",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1",
     "twilio": "^4.19.3",
